@@ -1,5 +1,7 @@
 # Honda C30A Main & Rod Bearing Calculator
 
+:boom: **[View the Calculator HERE](https://jstohler.github.io/c30a-engine-bearing-calculator/)** :boom:
+
 This is a calculator used to determine which Main Bearings and Rod Bearings to purchase and install when rebuilding a Honda C30A engine. 
 
 Selecting these bearings was easily the most difficult part during the rebuild of my 1991 NSX. The NSX Service manual doesn't describe the process of determing which bearings to choose when rebuilding the engine, only identifying which bearings were originally installed. I searched online to see if there was any easier process of determining which bearings to use and couldn't find a clear explaination.
