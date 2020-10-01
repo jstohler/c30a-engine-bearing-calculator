@@ -37,21 +37,17 @@
 </script>
 
 <style>
-    #main-view {
-        display: flex;
-    }
-
-    #input-column {
-        flex: 60%;
-    }
-
     #reference-column {
-        flex: 40%;
-        padding-left: 30px;
+        padding-bottom: 30px;
     }
 </style>
 
 <div id="main-view">
+    <div id="reference-column">
+        <h3>References:</h3>
+        <hr />
+        <Reference mainBearingType={bearingData.numBearings == 4} />
+    </div>
     <div id="input-column">
         <h3>Input Engine Codes:</h3>
         <hr />
@@ -69,10 +65,5 @@
         <br />
         <br />
         <br />
-    </div>
-    <div id="reference-column">
-        <h3>Reference:</h3>
-        <hr />
-        <Reference mainBearingType={bearingData.numBearings == 4} />
     </div>
 </div>
