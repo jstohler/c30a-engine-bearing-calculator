@@ -29,11 +29,17 @@
                 5: ""
             }
         },
+        fullStepCalculation: {
+            0: false,
+            1: false,
+            2: false,
+            3: false,
+            4: false,
+            5: false
+        },
         colName: "",
         rowName: ""
     }
-    
-    $: calcFullStep = false;
 </script>
 
 <style>
@@ -56,12 +62,12 @@
         <br />
         <h3>Stock Bearing Colors (Originally Installed by Honda):</h3>
         <hr />
-        <BearingComparator data={bearingData} bind:calcFullStep={calcFullStep}/>
+        <BearingComparator data={bearingData} />
         <br />
         <br />
         <h3>New Engine Bearings:</h3>
         <hr />
-        <BearingResults data={bearingData} bind:calcFullStep={calcFullStep}/>
+        <BearingResults data={bearingData} />
         <br />
         <br />
         <br />

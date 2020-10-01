@@ -33,6 +33,12 @@
                 3: ""
             }
         },
+        fullStepCalculation: {
+            0: false,
+            1: false,
+            2: false,
+            3: false
+        },
         colName: "Crank Bore Codes",
         rowName: "Main Journal Codes"
     }
@@ -69,6 +75,14 @@
                 5: "",
                 6: ""
             }
+        },
+        fullStepCalculation: {
+            0: false,
+            1: false,
+            2: false,
+            3: false,
+            4: false,
+            5: false
         },
         colName: "Rod Codes",
         rowName: "Rod Journal Codes"

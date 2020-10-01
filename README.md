@@ -49,8 +49,7 @@ You can run the newly built app with `npm run start`. This uses [sirv](https://g
 
 
 ## Roadmap
-- Improve support for mobile resolutions.
-- Allow the user to perform 'full-step' calculations by each individual journal.
+- Add/Confirm C32B Support
 
 
 ## License
